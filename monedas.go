@@ -19,19 +19,19 @@ func ConvertirDolares(valorDolares float64, monedaNueva string) {
 	switch monedaNueva {
 
 	case "euros":
-		valorConvertido = valorDolares * 0.93
+		valorConvertido = valorDolares * 0.85
 		fmt.Printf("%.2f dólares equivalen a %.2f euros.\n", valorDolares, valorConvertido)
 
 	case "libras":
-		valorConvertido = valorDolares * 0.79
+		valorConvertido = valorDolares * 0.74
 		fmt.Printf("%.2f dólares equivalen a %.2f libras esterlinas.\n", valorDolares, valorConvertido)
 
 	case "won":
-		valorConvertido = valorDolares * 1350.50
+		valorConvertido = valorDolares * 1401.0
 		fmt.Printf("%.2f dólares equivalen a %.2f wones surcoreanos.\n", valorDolares, valorConvertido)
 
 	case "btc":
-		valorConvertido = valorDolares * 0.000015
+		valorConvertido = valorDolares * 0.00000895
 		fmt.Printf("%.2f dólares equivalen a %.6f BTC.\n", valorDolares, valorConvertido)
 
 	default:

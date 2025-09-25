@@ -38,12 +38,3 @@ func ConvertirDolares(valorDolares float64, monedaNueva string) {
 		fmt.Println("Error: La moneda de destino no es válida.")
 	}
 }
-
-func main() {
-
-	ConvertirDolares(100, "Euros")
-	ConvertirDolares(50, "Won")
-	ConvertirDolares(200, "Libras")
-	ConvertirDolares(1000, "BTc")
-	ConvertirDolares(75, "Pesos")
-}
